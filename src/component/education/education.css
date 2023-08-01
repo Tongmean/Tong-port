@@ -1,0 +1,32 @@
+.education-section {
+    margin-top: 30px;
+
+}
+#dark .education-section{
+    color: white;
+}
+
+.Education-title h2 {
+    text-align: center;
+}
+.line-EDUCATION {
+    width: 120px;
+    background-color: aqua;
+    height: 3px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.Education-title{
+    margin-bottom: 30px;
+}
+.Education-content {
+    margin-top: 30px;
+
+}
+.date-class {
+    color: #030303da;
+}
+#dark .date-class{
+    color:white;
+}

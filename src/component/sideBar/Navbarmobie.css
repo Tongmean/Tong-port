@@ -1,0 +1,60 @@
+.navbar-mobile {
+    position: sticky;
+    top:0;
+    z-index: 1;
+    width: 100%;
+    margin-bottom: 60px;
+    height: 0;
+
+}
+.sidebar-35{
+    position: sticky;
+    top:0;
+    z-index: 1;
+    width: 35%;
+    height: auto;
+    background-color: brown;
+    margin-top: 0;
+    padding-top:10px;
+    padding-bottom: 5px;
+    
+}
+
+.Navbar-mobie-header {
+    width: 100%;
+    background-color: brown;
+    color:white;
+    height:60px;
+}
+.Navbar-mobie-header p svg {
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.nav-items-mobile{
+    margin-top: 10px;
+    padding-top:5px;
+}
+.nav-items-mobile .active{
+    background-color: yellowgreen;
+    color: black;
+    border-radius: 90px;
+    width:100%;
+    padding: 5px;
+}
+.mobile-nav {
+    background-color: brown;
+    padding-bottom: 3px;
+}
+
+.nav-items-mobile {
+    list-style-type: none;
+}
+
+
+
+@media (min-width:1000px){
+    .navbar-mobile{
+        display:none;
+    }
+}

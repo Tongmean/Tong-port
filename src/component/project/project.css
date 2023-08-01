@@ -1,0 +1,21 @@
+.project-section {
+    margin-top: 30px;
+}
+
+#dark .project-section{
+    color:white;
+
+}
+.project-title h2 {
+    text-align: center;
+        
+    
+}
+.line-project {
+    width: 120px;
+    background-color: aqua;
+    height: 3px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}

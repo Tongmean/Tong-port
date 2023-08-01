@@ -1,0 +1,51 @@
+.project-list {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 7px;
+}
+#dark .project-list{
+    background-color: darkblue;
+}
+.title-and-collapse-option {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between;
+}
+.project-list:hover {
+    border-left: 5px solid darkcyan;
+    cursor: pointer;
+    text-decoration: 2s;
+}
+.tech-name {
+    margin: 10px;
+    background-color:#030303da;
+    border-radius: 90px;
+    
+}
+.tech-name p {
+    text-align: center;
+    font-size: 17px;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.live-demo-button {
+    margin: 10px;
+    
+
+}
+.live-demo-button a {
+    text-decoration: none;
+    background-color: whitesmoke;
+    padding: 5px;
+    color: black;
+    border: 2px solid #030303da;
+    border-radius: 90px;
+
+}
+.live-demo-button a:hover{
+    background-color: #030303da;
+    color: aliceblue;
+    width: 300px;
+}
