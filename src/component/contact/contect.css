@@ -15,69 +15,24 @@
 #dark label {
     color: white;
 }
-.line{
-    margin-top: 100px;
-    align-items: center;
+
+.line1{
+    padding-top: 100px;
     display: flex;
     justify-content: center;
 }
-.line img{
-    
+.face{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+.line1 img{
     height: 300px;
     width: 300px;
-    object-fit: cover;
-    border: 2px solid grey;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-
-}
-/* .contact-pic{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-   
-
-
-} */
-/* .contact-pic img {
-    width: 400px;
-    height: 500px;
-    object-fit: cover;
-    border: 2px solid grey;
-    border-radius: 50px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-
-} */
-/* .contact-form{
-    padding-top: 50px;
-    
 }
 
-label{
-    margin-top: 20px;
-    padding-bottom: 10px;
+.face img{
+    height: 300px;
+    width: 300px;
 }
-.button-contact {
-    display: flex;
-    justify-content: center;
-}
-.btn{
-    margin-top: 20px;
-    background-color: #030303da;
-    width: 25%;
-    color:white ;
-    height: 50px;
-    
-}
-.btn:hover{
-    outline: none;
-    background-color: white;
-    color: black;
-    width: 35%;
-    outline: grey;
-    transition-duration: 1s;
-} */
-

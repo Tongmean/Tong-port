@@ -12,15 +12,15 @@ const Contact = () => {
         <div className='row'>
             <Rotate>
             <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12 '>
-                <div className='line'>
-                    <img src={lineqr} alt="lineqr"/>
+                <div className='line1'>
+                   <img src={lineqr} alt=""/>
                 </div>
             </div>
             </Rotate>
             <Zoom>
             <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
-            <div className='line'>
-                    <img src={faceqr} alt="faceqr"/>
+            <div className='face d-flex justify-content-center'>
+                    <img src={faceqr} alt=""/>
                 </div>
             </div>
             </Zoom>
